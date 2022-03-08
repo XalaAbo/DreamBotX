@@ -86,7 +86,7 @@ module.exports = {
             label: 'Information',
             description: 'Commands to share Information',
             value: 'Information',
-            emoji: '🔰',
+            emoji: '',
           },
           {
             label: 'Music',
@@ -98,7 +98,7 @@ module.exports = {
             label: 'Setup',
             description: 'Commands to setup Systems',
             value: 'Setup',
-            emoji: '💪',
+            emoji: '',
           },
           {
             label: 'Moderation',
@@ -116,7 +116,7 @@ module.exports = {
             label: 'Fun',
             description: 'The epic ways to have fun on discord',
             value: 'Fun',
-            emoji: '🕹️',
+            emoji: '',
           },
           {
             label: 'Mini Games',
@@ -128,13 +128,13 @@ module.exports = {
             label: 'Giveaway',
             description: 'Giveaway Commands',
             value: 'Giveaway',
-            emoji: '🎉',
+            emoji: '',
           },
           {
             label: 'Utility',
             description: 'Utility Commands',
             value: 'Utility',
-            emoji: '🔨',
+            emoji: '',
           },
           {
             label: 'Report',
@@ -191,14 +191,14 @@ module.exports = {
           .addFields([{
             name: `<:M_Category:923142056342347786> **Categories:**`,
             value: `>>> **<:M_y:905814084363112548> [Overview](${process.env.WEBSITE})
-🔰 [Information](${process.env.WEBSITE})
+[Information](${process.env.WEBSITE})
 <:M_music:919059393268572202> [Music](${process.env.WEBSITE})
-💪 [Setup](${process.env.WEBSITE})
+ [Setup](${process.env.WEBSITE})
 <:M_mod:903984765638697012> [Moderation](${process.env.WEBSITE})
-🕹️ [Fun](${process.env.WEBSITE})
+ [Fun](${process.env.WEBSITE})
 <:M_minigames:901781384232857630> [Mini Games](${process.env.WEBSITE})
-🎉 [Giveaway](${process.env.WEBSITE})
-🔨 [Utility](${process.env.WEBSITE})
+ [Giveaway](${process.env.WEBSITE})
+ [Utility](${process.env.WEBSITE})
 <:M_report:903985507963383869> [Report](${process.env.WEBSITE})
 <:M_level:903985530218356787> [Ranking](${process.env.WEBSITE})**`
           }])
@@ -243,13 +243,13 @@ module.exports = {
                     .setColor(ee.color)
                     .setAuthor(`${client.user.username} Help Menu`, client.user.displayAvatarURL())
                     .addFields({
-                      name: `🔰┃Information`,
+                      name: ´┃Information`,
                       value: `${client.commands.filter((cmd) => cmd.category === "info").sort((a,b) => a.name.localeCompare(b.name)).map((cmd) => `\`${cmd.name}\``).join("︲")}`
                     }, {
                       name: `<:M_music:919059393268572202>┃Music`,
                       value: `${client.commands.filter((cmd) => cmd.category === "music").sort((a,b) => a.name.localeCompare(b.name)).map((cmd) => `\`${cmd.name}\``).join("︲")}`
                     }, {
-                      name: `💪┃Setup`,
+                      name: `┃Setup`,
                       value: `${client.commands.filter((cmd) => cmd.category === "setup").sort((a,b) => a.name.localeCompare(b.name)).map((cmd) => `\`${cmd.name}\``).join("︲")}`
                     }, {
                       name: `<:moderator:903984765638697012>┃Moderation`,
@@ -258,16 +258,16 @@ module.exports = {
                       name: `<:boost:903985530218356787>┃Ranking`,
                       value: `${client.commands.filter((cmd) => cmd.category === "leveling").sort((a,b) => a.name.localeCompare(b.name)).map((cmd) => `\`${cmd.name}\``).join("︲")}`
                     }, {
-                      name: `🕹️┃Fun`,
+                      name: `┃Fun`,
                       value: `${client.commands.filter((cmd) => cmd.category === "fun").sort((a,b) => a.name.localeCompare(b.name)).map((cmd) => `\`${cmd.name}\``).join("︲")}`
                     }, {
                       name: `<:ItemController:901781384232857630>┃Mini Games`,
                       value: `${client.commands.filter((cmd) => cmd.category === "games").sort((a,b) => a.name.localeCompare(b.name)).map((cmd) => `\`${cmd.name}\``).join("︲")}`
                     }, {
-                      name: `🎉┃Giveaway`,
+                      name: `┃Giveaway`,
                       value: `${client.commands.filter((cmd) => cmd.category === "giveaway").sort((a,b) => a.name.localeCompare(b.name)).map((cmd) => `\`${cmd.name}\``).join("︲")}`
                     }, {
-                      name: `🔨┃Utility`,
+                      name: `┃Utility`,
                       value: `${client.commands.filter((cmd) => cmd.category === "utility").sort((a,b) => a.name.localeCompare(b.name)).map((cmd) => `\`${cmd.name}\``).join("︲")}`
                     }, {
                       name: `<:reported:903985507963383869>┃Report`,
@@ -441,7 +441,7 @@ module.exports = {
         var embeds = [];
 
         var embed0 = new MessageEmbed()
-          .addField(`🔰┃__**INFORMATION**__`,
+          .addField(`┃__**INFORMATION**__`,
             `>>> ${client.commands.filter((cmd) => cmd.category === "info").sort((a,b) => a.name.localeCompare(b.name)).map((cmd) => `\`${cmd.name}\``).join("︲")}`)
         embeds.push(embed0)
 
@@ -451,7 +451,7 @@ module.exports = {
         embeds.push(embed1)
 
         var embed2 = new MessageEmbed()
-          .addField(`💪┃__**SETUP**__`,
+          .addField(`┃__**SETUP**__`,
             `>>> ${client.commands.filter((cmd) => cmd.category === "setup").sort((a,b) => a.name.localeCompare(b.name)).map((cmd) => `\`${cmd.name}\``).join("︲")}`)
         embeds.push(embed2)
 
@@ -466,7 +466,7 @@ module.exports = {
         embeds.push(embed4)
 
         var embed5 = new MessageEmbed()
-          .addField(`🕹️┃__**FUN**__`,
+          .addField(`┃__**FUN**__`,
             `>>> ${client.commands.filter((cmd) => cmd.category === "fun").sort((a,b) => a.name.localeCompare(b.name)).map((cmd) => `\`${cmd.name}\``).join("︲")}`)
         embeds.push(embed5)
 
@@ -476,12 +476,12 @@ module.exports = {
         embeds.push(embed6)
 
         var embed7 = new MessageEmbed()
-          .addField(`🎉┃__**GIVEAWAY**__`,
+          .addField(`┃__**GIVEAWAY**__`,
             `>>> ${client.commands.filter((cmd) => cmd.category === "giveaway").sort((a,b) => a.name.localeCompare(b.name)).map((cmd) => `\`${cmd.name}\``).join("︲")}`)
         embeds.push(embed7)
 
         var embed8 = new MessageEmbed()
-          .addField(`🔨┃__**UTILITY**__`,
+          .addField(`┃__**UTILITY**__`,
             `>>> ${client.commands.filter((cmd) => cmd.category === "utility").sort((a,b) => a.name.localeCompare(b.name)).map((cmd) => `\`${cmd.name}\``).join("︲")}`)
         embeds.push(embed8)
 
