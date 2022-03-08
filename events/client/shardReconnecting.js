@@ -8,10 +8,10 @@ module.exports = {
 
 /**
  * @INFO
- * Bot Coded by Zedro#2742 | https://discord.gg/milanio
+ * Bot Coded by XalaAbo | https://discord.gg/dream-place
  * @INFO
- * Work for Milanio Development | https://discord.gg/milanio
+ * Work for Milanio Development |https://discord.gg/dream-place
  * @INFO
- * Please Mention Us Milanio Development, When Using This Code!
+ * Please Mention Us Dream Place , When Using This Code!
  * @INFO
  */
