@@ -1,9 +1,9 @@
 {
     "env": {
-        "TOKEN": "",
-        "PREFIX": "",
-        "MongoDB_TOKEN": "",
-        "INVITE": "",
+        "TOKEN": "ODAyOTI3NTMzMDcwMzUyNDI1.YA2WiQ.iS21odkRjbu0fFUweQV2qJAFeW8",
+        "PREFIX": "D",
+        "MongoDB_TOKEN": "mongodb+srv://Xala:Abo11<password>@cluster0.dzow4.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+        "INVITE": "https://discord.com/api/oauth2/authorize?client_id=802927533070352425&permissions=8&scope=bot",
         "WEBSITE": "",
         "google_API": "",
         "google_Engine_id": "",
