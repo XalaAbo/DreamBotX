@@ -5,12 +5,12 @@
         "MongoDB_TOKEN": "mongodb+srv://Xala:Abo11@cluster0.dzow4.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
         "INVITE": "https://discord.com/api/oauth2/authorize?client_id=802927533070352425&permissions=8&scope=bot",
         "WEBSITE": "",
-        "google_API": "AIzaSyBBqzi5vSrIJbel3dabPP9t4j9ehlu3G-U",
+        "google_API": "AIzaSyC14W56h6U5Jv5hUCZUUTuMl1UmZMZmMaI",
         "google_Engine_id": "AIzaSyBBqzi5vSrIJbel3dabPP9t4j9ehlu3G-U",
         "spotify_clientID": "80b8640964ee4184a819bc869cef60e5",
         "spotify_clientSecret": "f2c8ecc1c1ef4752b8e7f701c4715da2",
         "news_API": "73858dd99ca9401eb475716d1bed1200",
-        "giphy_API": ""
+        "giphy_API": "u0GhhcuCut3lVZ5jaf1VQdySMduwMiQn"
     },
     "music": {
         "musicRequestImage": "",
