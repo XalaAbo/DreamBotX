@@ -10,7 +10,7 @@ module.exports = {
  * @INFO
  * Bot Coded by XalaAbo | https://discord.gg/dream-place
  * @INFO
- * Work for Milanio Development |https://discord.gg/dream-place
+ * Work for Dream Place |https://discord.gg/dream-place
  * @INFO
  * Please Mention Us Dream Place , When Using This Code!
  * @INFO
