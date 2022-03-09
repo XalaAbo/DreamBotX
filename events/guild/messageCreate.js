@@ -50,7 +50,7 @@ module.exports = {
             if (!message.guild.me.permissions.has(Discord.Permissions.FLAGS.SEND_MESSAGES)) return;
             if (!message.guild.me.permissions.has(Discord.Permissions.FLAGS.USE_EXTERNAL_EMOJIS))
                 return message.reply({
-                    content: `❌ I am missing the Permission to \`USE_EXTERNAL_EMOJIS\``
+                    content: ` I am missing the Permission to \`USE_EXTERNAL_EMOJIS\``
                 })
             if (!message.guild.me.permissions.has(Discord.Permissions.FLAGS.EMBED_LINKS))
                 return message.reply({
@@ -157,8 +157,8 @@ module.exports = {
                                 dynamic: true
                             }))
                             .setTitle(`<a:YellowArrow:904258979432132640> Prefix Command`)
-                            .addField("**<a:YellowArrow:904258979432132640> Author**", `\`\`\`${message.author.tag}\`\`\``)
-                            .addField("**<a:YellowArrow:904258979432132640> Command Name**", `\`\`\`${command.name}\`\`\``)
+                            .addField("** Author**", `\`\`\`${message.author.tag}\`\`\``)
+                            .addField("** Command Name**", `\`\`\`${command.name}\`\`\``)
                         ]
                     });
                 } catch (error) {
