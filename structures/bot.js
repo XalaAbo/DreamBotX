@@ -53,7 +53,7 @@ require('events').defaultMaxListeners = 0;
     require(`./handlers/${handler}`)(client);
 });
 
-client.login("ODAyOTI3NTMzMDcwMzUyNDI1.YA2WiQ.iS21odkRjbu0fFUweQV2qJAFeW8");
+client.login("ODAyOTI3NTMzMDcwMzUyNDI1.YA2WiQ.wM4z00y269UsTFs8HjutiQ9vwiU");
 
 /**********************************************************
  * @INFO
