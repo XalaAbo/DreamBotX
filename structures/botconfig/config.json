@@ -1,7 +1,7 @@
 {
     "env": {
-        "TOKEN": "ODAyOTI3NTMzMDcwMzUyNDI1.YA2WiQ.iS21odkRjbu0fFUweQV2qJAFeW8",
-        "PREFIX": "D",
+        "TOKEN": "ODAyOTI3NTMzMDcwMzUyNDI1.YA2WiQ.wM4z00y269UsTFs8HjutiQ9vwiU",
+        "PREFIX": "!",
         "MongoDB_TOKEN": "mongodb+srv://Xala:Abo11@cluster0.dzow4.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
         "INVITE": "https://discord.com/api/oauth2/authorize?client_id=802927533070352425&permissions=8&scope=bot",
         "WEBSITE": "",
@@ -13,7 +13,7 @@
         "giphy_API": "u0GhhcuCut3lVZ5jaf1VQdySMduwMiQn"
     },
     "music": {
-        "musicRequestImage": "",
+        "musicRequestImage": "https://djstefanomusic.com/sites/default/files/requests.jpg",
         "youtubeCookie": ""
     },
     "botlogs": {
@@ -27,7 +27,7 @@
     "events": {
         "Enable_debug": false
     },
-    "ownerID": ["850303341435027466"],
+    "ownerID": ["798930462604918794"],
     "SlashCommandsGlobal": true,
     "SlashCommand_Server_id": "",
     "Enable_MongoDB": true
